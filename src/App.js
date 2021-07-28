@@ -2,11 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import FunctionalComponent from './FunctionalComponent';
 import ClassComponent from './ClassComponent';
+import ToDoList from './ToDoList';
+import TimerComponent from './TimerComponent';
 function App() {
   return (
     <div className="App">
-      <FunctionalComponent/>;
-      <ClassComponent/>
+      {/* <FunctionalComponent/>;
+      <ClassComponent/> */}
+      <ToDoList/>
+       {/* <TimerComponent/>  */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
