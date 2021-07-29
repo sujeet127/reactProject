@@ -16,23 +16,23 @@ function App() {
         <header className="row">
           <div className="col-sm-12 bg-info">
             <Header/>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item active">
+        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/todolist">ToDoList</a>
+      <li className="nav-item">
+        <a className="nav-link" href="/todolist">ToDoList</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/timer">Timer</a>
+      <li className="nav-item">
+        <a className="nav-link" href="/timer">Timer</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/class">ClassComponent</a>
+      <li className="nav-item">
+        <a className="nav-link" href="/class">ClassComponent</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/functional">Functional Component</a>
+      <li className="nav-item">
+        <a className="nav-link" href="/functional">Functional Component</a>
       </li>
      
     </ul>
