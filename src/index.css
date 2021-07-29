@@ -32,7 +32,7 @@ code {
   height: 70vh;
   background-color: rgb(218, 221, 224) ;
   box-shadow: 2px 3px 10px black;
-  border-radius: 15px;
+  border-radius: 20px 15px !important;
 }
 input{
   text-align: center;
@@ -46,24 +46,12 @@ input{
   outline: none;
   margin-right: 20px;
 }
-h1{
-  margin-top: 15px;
-  font-size: 50px;
-  margin-bottom: 30px;
-  min-width: 64px;
-  box-sizing: border-box;
-  background-color: rgb(155, 119, 240);
-  font-weight: 500;
-  border-radius: 4px;
-  letter-spacing: 0.02857em;
-  
-  text-shadow: 2px,2px,rgba(0,0,0,0.3);
-}
+
 .addBtn{
   width: 50px;
   height: 55px;
   font-size: xx-large;
-  background-color:rgb(155, 119, 240)!important;
+  background-color:#8E4BE5!important;
   color: white ;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
   border-radius: 50%;

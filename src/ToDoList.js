@@ -1,14 +1,14 @@
 import React,{Component} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+import './index.css';
 class ToDoList extends Component{
     constructor(props)
     {super(props);
         this.state={
             userName:'Sujeet',
             listItem:[
-                {action:'buy MIlk', done:false},
-                {action:'buy vegitables',done:false},
+                {action:'buy Milk', done:false},
+                {action:'buy vegetables',done:false},
             ],
             newtodo:'',
         }
@@ -55,13 +55,20 @@ class ToDoList extends Component{
         
     
     render(){
+        const h1Style={
+            color: 'white',
+            fontSize: 40,
+            backgroundColor: '#8E4BE5',
+            marginTop: 20
+            
+          }
         return <>
         <div className="main_div">
-            <div className="center_div col-6">
-                <h1 >ToDoList</h1>
+            <div className="center_div ">
+                <h1  style={h1Style}>ToDoList</h1>
                 <input type="text" placeholder="Add an item" value={this.state.newtodo} onChange={this.updatevalue}/>
                 <button className="addBtn" onClick={this.newTodo}> + </button>
-                <div className="col-8  ">
+                <div >
                     <table className="table">
                         <thead>
                             <tr>
